@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is a package.json file",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashottarreva/git-test.git"
+  },
+  "author": "Reva Dashottar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dashottarreva/git-test/issues"
+  },
+  "homepage": "https://github.com/dashottarreva/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
